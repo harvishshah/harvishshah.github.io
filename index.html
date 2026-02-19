@@ -456,7 +456,8 @@
             <div class="hero-role">Senior Industrial Service & Automation Professional<br>Service Operations · Automation Systems · Digital & AI-Driven Initiatives</div>
             <p class="hero-desc">Industrial service and automation professional with 14+ years of experience across manufacturing and process industries. Currently leading digital transformation initiatives, bridging engineering execution with data-driven automation and AI-enabled process improvements to enhance operational performance and strengthen aftermarket service delivery.</p>
             <div class="hero-btns">
-                <button onclick="openResumeModal()" class="btn-primary">
+          <!--      <button onclick="openResumeModal()" class="btn-primary"> -->
+                <a href="Harvish-Shah-Resume.pdf" target="_blank" class="btn-primary">
                     <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
                     Download Resume
                 </button>
@@ -892,7 +893,7 @@
 
 <!-- RESUME DOWNLOAD MODAL -->
 <div class="modal-overlay" id="resumeModal">
-    <div class="modal-box">
+  <!--  <div class="modal-box">
         <button class="modal-close" onclick="closeResumeModal()">✕</button>
         <div class="modal-icon">📄</div>
         <h2 class="modal-title">Download Resume</h2>
@@ -916,7 +917,7 @@
             </button>
         </form>
     </div>
-</div>
+</div> -->
 
 <script>
 // Experience tabs
@@ -928,7 +929,7 @@ function switchTab(tab) {
 }
 
 // Resume modal
-function openResumeModal() {
+/* function openResumeModal() {
     document.getElementById('resumeModal').classList.add('active');
     document.body.style.overflow = 'hidden';
 }
@@ -966,7 +967,7 @@ document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape' && document.getElementById('resumeModal').classList.contains('active')) {
         closeResumeModal();
     }
-});
+}); */
 </script>
 
 </body>
